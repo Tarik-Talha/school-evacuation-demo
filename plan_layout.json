@@ -1,0 +1,992 @@
+{
+  "schema_version": 1,
+  "status": "visual_digitization_with_tentative_class_mapping",
+  "note": "Image coordinates are manually observed; class-room assignments and all physical scale remain unverified.",
+  "image_size": [
+    1080,
+    1920
+  ],
+  "floors": {
+    "B2": {
+      "source_id": "P02",
+      "image_file": "assets/plans/P02.jpeg",
+      "image_sha256": "895abac93c905a7363bbe00a2f76149f48159052a337d9d5d165309c8db7e460",
+      "viewport": [
+        70,
+        830,
+        715,
+        1135
+      ],
+      "hub": [
+        440,
+        945
+      ],
+      "stairs": {
+        "left": [
+          280,
+          855
+        ],
+        "right": [
+          660,
+          865
+        ]
+      },
+      "approaches": {
+        "left": [
+          [
+            390,
+            940
+          ],
+          [
+            370,
+            890
+          ]
+        ],
+        "right": [
+          [
+            570,
+            945
+          ],
+          [
+            605,
+            910
+          ]
+        ]
+      },
+      "rooms": {
+        "lab_B2": {
+          "label": "Fen laboratuvarı",
+          "center": [
+            665,
+            765
+          ],
+          "door": [
+            615,
+            820
+          ]
+        }
+      },
+      "scale_m_per_pixel": null,
+      "geometry_status": "manually_marked_visual_anchors_not_surveyed"
+    },
+    "B1": {
+      "source_id": "P03",
+      "image_file": "assets/plans/P03.jpeg",
+      "image_sha256": "f12eab3aba4bc3225df1b44380dbb38fd79938ca71ea535568b7fe1163578230",
+      "viewport": [
+        45,
+        815,
+        730,
+        1165
+      ],
+      "hub": [
+        450,
+        955
+      ],
+      "stairs": {
+        "left": [
+          270,
+          875
+        ],
+        "right": [
+          640,
+          905
+        ]
+      },
+      "approaches": {
+        "left": [
+          [
+            380,
+            940
+          ],
+          [
+            365,
+            900
+          ]
+        ],
+        "right": [
+          [
+            550,
+            960
+          ],
+          [
+            580,
+            945
+          ]
+        ]
+      },
+      "rooms": {
+        "dining": {
+          "label": "Yemek salonu",
+          "center": [
+            310,
+            1030
+          ],
+          "door": [
+            370,
+            930
+          ]
+        }
+      },
+      "scale_m_per_pixel": null,
+      "geometry_status": "manually_marked_visual_anchors_not_surveyed"
+    },
+    "G": {
+      "source_id": "P04",
+      "image_file": "assets/plans/P04.jpeg",
+      "image_sha256": "827d805e00350c19ae8cf6e36f907b9cc5883264f8e8c9374d5665c369abe628",
+      "viewport": [
+        90,
+        790,
+        735,
+        1200
+      ],
+      "hub": [
+        480,
+        980
+      ],
+      "stairs": {
+        "left": [
+          180,
+          855
+        ],
+        "right": [
+          630,
+          875
+        ],
+        "fire": [
+          480,
+          750
+        ]
+      },
+      "approaches": {
+        "left": [
+          [
+            285,
+            920
+          ],
+          [
+            225,
+            900
+          ]
+        ],
+        "right": [
+          [
+            520,
+            925
+          ],
+          [
+            565,
+            915
+          ]
+        ],
+        "fire": [
+          [
+            470,
+            910
+          ],
+          [
+            470,
+            800
+          ]
+        ]
+      },
+      "rooms": {
+        "ground": {
+          "label": "Zemin holü",
+          "center": [
+            430,
+            1060
+          ],
+          "door": [
+            500,
+            1050
+          ]
+        }
+      },
+      "scale_m_per_pixel": null,
+      "geometry_status": "manually_marked_visual_anchors_not_surveyed"
+    },
+    "M": {
+      "source_id": "P05",
+      "image_file": "assets/plans/P05.jpeg",
+      "image_sha256": "8fa7bcbcb9c847d5984826dcf3d730fca1037b1bd5a46fe47a36d10f7fa3298a",
+      "viewport": [
+        90,
+        790,
+        690,
+        1200
+      ],
+      "hub": [
+        390,
+        945
+      ],
+      "stairs": {
+        "left": [
+          175,
+          845
+        ],
+        "right": [
+          625,
+          875
+        ],
+        "fire": [
+          500,
+          755
+        ]
+      },
+      "approaches": {
+        "left": [
+          [
+            285,
+            920
+          ],
+          [
+            225,
+            900
+          ]
+        ],
+        "right": [
+          [
+            520,
+            925
+          ],
+          [
+            565,
+            915
+          ]
+        ],
+        "fire": [
+          [
+            470,
+            910
+          ],
+          [
+            470,
+            800
+          ]
+        ]
+      },
+      "rooms": {
+        "mezzanine": {
+          "label": "Asma kat bekleme alanı",
+          "center": [
+            450,
+            950
+          ],
+          "door": [
+            430,
+            930
+          ]
+        }
+      },
+      "scale_m_per_pixel": null,
+      "geometry_status": "manually_marked_visual_anchors_not_surveyed"
+    },
+    "1": {
+      "source_id": "P06",
+      "image_file": "assets/plans/P06.jpeg",
+      "image_sha256": "001e217a6640dc92cd2b2cb36757c819854b0172ae742362b8fcc7da00c68837",
+      "viewport": [
+        90,
+        790,
+        690,
+        1200
+      ],
+      "hub": [
+        390,
+        945
+      ],
+      "stairs": {
+        "left": [
+          175,
+          845
+        ],
+        "right": [
+          625,
+          875
+        ],
+        "fire": [
+          500,
+          755
+        ]
+      },
+      "approaches": {
+        "left": [
+          [
+            285,
+            920
+          ],
+          [
+            225,
+            900
+          ]
+        ],
+        "right": [
+          [
+            520,
+            925
+          ],
+          [
+            565,
+            915
+          ]
+        ],
+        "fire": [
+          [
+            470,
+            910
+          ],
+          [
+            470,
+            800
+          ]
+        ]
+      },
+      "rooms": {
+        "room_1": {
+          "label": "Derslik 1",
+          "center": [
+            205,
+            945
+          ],
+          "door": [
+            300,
+            980
+          ]
+        },
+        "room_2": {
+          "label": "Derslik 2",
+          "center": [
+            175,
+            1080
+          ],
+          "door": [
+            220,
+            1010
+          ]
+        },
+        "room_3": {
+          "label": "Derslik 3",
+          "center": [
+            325,
+            1080
+          ],
+          "door": [
+            395,
+            1010
+          ]
+        },
+        "room_4": {
+          "label": "Derslik 4",
+          "center": [
+            480,
+            1080
+          ],
+          "door": [
+            430,
+            985
+          ]
+        }
+      },
+      "scale_m_per_pixel": null,
+      "geometry_status": "manually_marked_visual_anchors_not_surveyed"
+    },
+    "2": {
+      "source_id": "P07",
+      "image_file": "assets/plans/P07.jpeg",
+      "image_sha256": "8d9d77e1db171edfc2037728b0a9b88159ec68b699a24ac9b49f69874d7afca1",
+      "viewport": [
+        90,
+        790,
+        690,
+        1200
+      ],
+      "hub": [
+        390,
+        945
+      ],
+      "stairs": {
+        "left": [
+          175,
+          845
+        ],
+        "right": [
+          625,
+          875
+        ],
+        "fire": [
+          500,
+          755
+        ]
+      },
+      "approaches": {
+        "left": [
+          [
+            285,
+            920
+          ],
+          [
+            225,
+            900
+          ]
+        ],
+        "right": [
+          [
+            520,
+            925
+          ],
+          [
+            565,
+            915
+          ]
+        ],
+        "fire": [
+          [
+            470,
+            910
+          ],
+          [
+            470,
+            800
+          ]
+        ]
+      },
+      "rooms": {
+        "room_5": {
+          "label": "Derslik 5",
+          "center": [
+            205,
+            945
+          ],
+          "door": [
+            300,
+            980
+          ]
+        },
+        "room_6": {
+          "label": "Derslik 6",
+          "center": [
+            175,
+            1080
+          ],
+          "door": [
+            220,
+            1010
+          ]
+        },
+        "room_7": {
+          "label": "Derslik 7",
+          "center": [
+            325,
+            1080
+          ],
+          "door": [
+            395,
+            1010
+          ]
+        },
+        "room_8": {
+          "label": "Derslik 8",
+          "center": [
+            480,
+            1080
+          ],
+          "door": [
+            430,
+            985
+          ]
+        }
+      },
+      "scale_m_per_pixel": null,
+      "geometry_status": "manually_marked_visual_anchors_not_surveyed"
+    },
+    "3": {
+      "source_id": "P08",
+      "image_file": "assets/plans/P08.jpeg",
+      "image_sha256": "dddcbb5075a00a91c16144097850ad58b6b7ab397497379af424fd77d241e5d1",
+      "viewport": [
+        90,
+        790,
+        690,
+        1200
+      ],
+      "hub": [
+        390,
+        945
+      ],
+      "stairs": {
+        "left": [
+          175,
+          845
+        ],
+        "right": [
+          625,
+          875
+        ],
+        "fire": [
+          500,
+          755
+        ]
+      },
+      "approaches": {
+        "left": [
+          [
+            285,
+            920
+          ],
+          [
+            225,
+            900
+          ]
+        ],
+        "right": [
+          [
+            520,
+            925
+          ],
+          [
+            565,
+            915
+          ]
+        ],
+        "fire": [
+          [
+            470,
+            910
+          ],
+          [
+            470,
+            800
+          ]
+        ]
+      },
+      "rooms": {
+        "room_1": {
+          "label": "Derslik 1",
+          "center": [
+            205,
+            945
+          ],
+          "door": [
+            300,
+            980
+          ]
+        },
+        "room_2": {
+          "label": "Derslik 2",
+          "center": [
+            175,
+            1080
+          ],
+          "door": [
+            220,
+            1010
+          ]
+        },
+        "room_3": {
+          "label": "Derslik 3",
+          "center": [
+            325,
+            1080
+          ],
+          "door": [
+            395,
+            1010
+          ]
+        },
+        "room_4": {
+          "label": "Derslik 4",
+          "center": [
+            480,
+            1080
+          ],
+          "door": [
+            430,
+            985
+          ]
+        }
+      },
+      "scale_m_per_pixel": null,
+      "geometry_status": "manually_marked_visual_anchors_not_surveyed"
+    },
+    "4": {
+      "source_id": "P09",
+      "image_file": "assets/plans/P09.jpeg",
+      "image_sha256": "c31e2032fb325c9ac7145bf39f121525f68efe6715acd5c5e4a682b775e96ab5",
+      "viewport": [
+        90,
+        790,
+        690,
+        1200
+      ],
+      "hub": [
+        390,
+        945
+      ],
+      "stairs": {
+        "left": [
+          175,
+          845
+        ],
+        "right": [
+          625,
+          875
+        ],
+        "fire": [
+          500,
+          755
+        ]
+      },
+      "approaches": {
+        "left": [
+          [
+            285,
+            920
+          ],
+          [
+            225,
+            900
+          ]
+        ],
+        "right": [
+          [
+            520,
+            925
+          ],
+          [
+            565,
+            915
+          ]
+        ],
+        "fire": [
+          [
+            470,
+            910
+          ],
+          [
+            470,
+            800
+          ]
+        ]
+      },
+      "rooms": {
+        "room_5": {
+          "label": "Derslik 5",
+          "center": [
+            205,
+            945
+          ],
+          "door": [
+            300,
+            980
+          ]
+        },
+        "room_6": {
+          "label": "Derslik 6",
+          "center": [
+            175,
+            1080
+          ],
+          "door": [
+            220,
+            1010
+          ]
+        },
+        "room_7": {
+          "label": "Derslik 7",
+          "center": [
+            325,
+            1080
+          ],
+          "door": [
+            395,
+            1010
+          ]
+        },
+        "room_8": {
+          "label": "Derslik 8",
+          "center": [
+            480,
+            1080
+          ],
+          "door": [
+            430,
+            985
+          ]
+        }
+      },
+      "scale_m_per_pixel": null,
+      "geometry_status": "manually_marked_visual_anchors_not_surveyed"
+    },
+    "5": {
+      "source_id": "P10",
+      "image_file": "assets/plans/P10.jpeg",
+      "image_sha256": "d02c6c4e05aff1d3db6cd8686a80a2f336007312aba1e639a3f89edfdf5e29c8",
+      "viewport": [
+        125,
+        800,
+        815,
+        1205
+      ],
+      "hub": [
+        500,
+        985
+      ],
+      "stairs": {
+        "left": [
+          230,
+          850
+        ],
+        "right": [
+          700,
+          865
+        ],
+        "fire": [
+          560,
+          755
+        ]
+      },
+      "approaches": {
+        "left": [
+          [
+            420,
+            1005
+          ],
+          [
+            390,
+            910
+          ],
+          [
+            325,
+            890
+          ]
+        ],
+        "right": [
+          [
+            555,
+            985
+          ],
+          [
+            620,
+            950
+          ],
+          [
+            650,
+            910
+          ]
+        ],
+        "fire": [
+          [
+            490,
+            860
+          ],
+          [
+            540,
+            840
+          ]
+        ]
+      },
+      "rooms": {
+        "lab_5": {
+          "label": "Fizik-kimya-biyoloji",
+          "center": [
+            370,
+            945
+          ],
+          "door": [
+            495,
+            975
+          ]
+        },
+        "library": {
+          "label": "Kütüphane (kapsam dışı)",
+          "center": [
+            280,
+            1070
+          ],
+          "door": [
+            370,
+            1100
+          ]
+        }
+      },
+      "scale_m_per_pixel": null,
+      "geometry_status": "manually_marked_visual_anchors_not_surveyed"
+    },
+    "6": {
+      "source_id": "P11",
+      "image_file": "assets/plans/P11.jpeg",
+      "image_sha256": "108a742cdea4eb73062ef8c70443d7f8433ac654943e108c35ed3a6ec1b27bf9",
+      "viewport": [
+        80,
+        810,
+        760,
+        1220
+      ],
+      "hub": [
+        390,
+        945
+      ],
+      "stairs": {
+        "left": [
+          175,
+          845
+        ],
+        "right": [
+          625,
+          875
+        ],
+        "fire": [
+          500,
+          755
+        ]
+      },
+      "approaches": {
+        "left": [
+          [
+            285,
+            920
+          ],
+          [
+            225,
+            900
+          ]
+        ],
+        "right": [
+          [
+            520,
+            925
+          ],
+          [
+            565,
+            915
+          ]
+        ],
+        "fire": [
+          [
+            470,
+            910
+          ],
+          [
+            470,
+            800
+          ]
+        ]
+      },
+      "rooms": {
+        "room_9": {
+          "label": "Derslik 9",
+          "center": [
+            205,
+            945
+          ],
+          "door": [
+            300,
+            980
+          ]
+        },
+        "room_10": {
+          "label": "Derslik 10",
+          "center": [
+            175,
+            1080
+          ],
+          "door": [
+            220,
+            1010
+          ]
+        },
+        "room_11": {
+          "label": "Derslik 11",
+          "center": [
+            325,
+            1080
+          ],
+          "door": [
+            395,
+            1010
+          ]
+        },
+        "room_12": {
+          "label": "Derslik 12",
+          "center": [
+            480,
+            1080
+          ],
+          "door": [
+            430,
+            985
+          ]
+        }
+      },
+      "scale_m_per_pixel": null,
+      "geometry_status": "manually_marked_visual_anchors_not_surveyed"
+    }
+  },
+  "class_mapping": {
+    "5A": {
+      "floor": "2",
+      "room_id": "room_5",
+      "user_confirmed": false
+    },
+    "6A": {
+      "floor": "1",
+      "room_id": "room_1",
+      "user_confirmed": false
+    },
+    "7A": {
+      "floor": "2",
+      "room_id": "room_6",
+      "user_confirmed": false
+    },
+    "8A": {
+      "floor": "1",
+      "room_id": "room_2",
+      "user_confirmed": false
+    },
+    "9A": {
+      "floor": "3",
+      "room_id": "room_1",
+      "user_confirmed": false
+    },
+    "10A": {
+      "floor": "3",
+      "room_id": "room_2",
+      "user_confirmed": false
+    },
+    "11A": {
+      "floor": "3",
+      "room_id": "room_3",
+      "user_confirmed": false
+    },
+    "11B": {
+      "floor": "4",
+      "room_id": "room_5",
+      "user_confirmed": false
+    },
+    "12A": {
+      "floor": "4",
+      "room_id": "room_6",
+      "user_confirmed": false
+    },
+    "12B": {
+      "floor": "4",
+      "room_id": "room_7",
+      "user_confirmed": false
+    }
+  },
+  "world": {
+    "width_m_assumed": 22.0,
+    "depth_m_assumed": 16.0,
+    "floor_height_m_assumed": 3.0
+  },
+  "field": {
+    "position_assumed": [
+      30.0,
+      5.0,
+      0.0
+    ],
+    "confirmed_polygon": null
+  }
+}

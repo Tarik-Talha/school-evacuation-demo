@@ -1,0 +1,12 @@
+__pycache__/
+.pytest_cache/
+private/
+runtime/
+.venv/
+.streamlit/secrets.toml
+__pycache__/
+*.py[cod]
+*.log
+*.blend1
+.DS_Store
+exports/*.blend*

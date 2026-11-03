@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "population_scope": "students_only",
+  "status": "scenario definitions; no route timing results",
+  "shared_rules": [
+    "111 existing students; never add a second copy when they move",
+    "No route travel during initial shaking",
+    "No elevators",
+    "No automatic floor release priority; compare only approved procedures",
+    "Unreachable people remain unresolved; do not count as evacuated",
+    "School-proposed field is not yet an approved safe assembly polygon"
+  ],
+  "scenarios": [
+    {
+      "id": "S01",
+      "title": "Ders sırasında deprem",
+      "time_context": "09:00–12:00 veya 13:00–16:10; ders anı seçilecek",
+      "placement": {
+        "mode": "home_floors"
+      },
+      "decision_question": "3–4. kattaki 77 öğrencinin akışı hangi sahanlık ve çıkışlarda birleşiyor?",
+      "assumption": null,
+      "extra_parameters": {},
+      "population_scope": "students_only",
+      "requires_field_validation": true,
+      "operationally_approved": false,
+      "result": null
+    },
+    {
+      "id": "S02",
+      "title": "Öğle yemeğinde deprem",
+      "time_context": "12:00–13:00; salon içindeki an",
+      "placement": {
+        "mode": "all_students",
+        "destination_floor": "B1"
+      },
+      "decision_question": "Bodrumdan yukarı çıkan 111 öğrenci hangi çıkışlarda kuyruk oluşturuyor?",
+      "assumption": "Yemek salonunun P03'teki 1. bodrumda olduğu; birlikte yemek kullanıcı tarafından doğrulandı",
+      "extra_parameters": {},
+      "population_scope": "students_only",
+      "requires_field_validation": true,
+      "operationally_approved": false,
+      "result": null
+    },
+    {
+      "id": "S03",
+      "title": "Teneffüste deprem",
+      "time_context": "Gerçek teneffüs çizelgesi bekleniyor",
+      "placement": {
+        "mode": "unknown"
+      },
+      "decision_question": "Koridor, WC ve merdivene yakın öğrencilerin dağılımı sonucu nasıl değiştiriyor?",
+      "assumption": "Konum dağılımı bilinmiyor; sınıf konumları otomatik kullanılmaz",
+      "extra_parameters": {},
+      "population_scope": "students_only",
+      "requires_field_validation": true,
+      "operationally_approved": false,
+      "result": null
+    },
+    {
+      "id": "S04",
+      "title": "Bir merdiven veya çıkışın kullanılamaması",
+      "time_context": "S01 ile eşlenmiş karşılaştırma",
+      "placement": {
+        "mode": "home_floors"
+      },
+      "decision_question": "Her bir bağlantı kapandığında kimin güvenli rotası kalmıyor?",
+      "assumption": "Kapanma bir test koşuludur; binada hasar oluşacağı tahmini değildir",
+      "extra_parameters": {
+        "closed_edge_id": null,
+        "if_no_safe_route": "report_unreachable_not_evacuated"
+      },
+      "population_scope": "students_only",
+      "requires_field_validation": true,
+      "operationally_approved": false,
+      "result": null
+    },
+    {
+      "id": "S05",
+      "title": "Elektrik ve anons kesintisi",
+      "time_context": "S01/S02 ile ayrı ayrı eşlenecek",
+      "placement": {
+        "mode": "home_floors"
+      },
+      "decision_question": "Ölçülen yönelme gecikmesi ve acil aydınlatma durumu akışı nasıl değiştiriyor?",
+      "assumption": "Kesinti varsayımsaldır; sabit bir gecikme veya hız kaybı henüz atanmadı",
+      "extra_parameters": {
+        "reaction_delay_seconds": null,
+        "emergency_lighting_verified": null
+      },
+      "population_scope": "students_only",
+      "requires_field_validation": true,
+      "operationally_approved": false,
+      "result": null
+    },
+    {
+      "id": "S06",
+      "title": "Hareket desteği gereken öğrenci",
+      "time_context": "S01 ile eşlenmiş duyarlılık testi",
+      "placement": {
+        "mode": "home_floors"
+      },
+      "decision_question": "Destek gerektiren mevcut bir öğrenci ve refakat düzeni akışı nasıl etkiliyor?",
+      "assumption": "Gerçek bir öğrenciye sağlık etiketi atanmadı; refakatçi eklenirse nüfus kapsamı ayrıca genişletilecek",
+      "extra_parameters": {
+        "existing_student_class": null,
+        "assisted_student_count": null,
+        "assistants_included": false
+      },
+      "population_scope": "students_only",
+      "requires_field_validation": true,
+      "operationally_approved": false,
+      "result": null
+    },
+    {
+      "id": "S07",
+      "title": "Bahçe çıkışı veya sahaya erişimin kapanması",
+      "time_context": "Bina dışına çıkış sonrası",
+      "placement": {
+        "mode": "home_floors"
+      },
+      "decision_question": "Ana bahçe yolu kapalıysa doğrulanmış alternatif toplanma rotası var mı?",
+      "assumption": "Bahçedeki saha kullanıcı önerisidir; güvenli poligon ve alternatif alan doğrulanmadı",
+      "extra_parameters": {
+        "closed_outdoor_edge": null,
+        "alternate_assembly": null
+      },
+      "population_scope": "students_only",
+      "requires_field_validation": true,
+      "operationally_approved": false,
+      "result": null
+    },
+    {
+      "id": "S08",
+      "title": "Laboratuvar dersinde deprem",
+      "time_context": "Ders programı bekleniyor",
+      "placement": {
+        "mode": "move_classes",
+        "class_destinations": {
+          "10A": "5"
+        }
+      },
+      "decision_question": "Bir sınıf 5. kattaki laboratuvardayken merdiven yükü nasıl değişiyor?",
+      "assumption": "Yalnız örnek: 10A'nın mevcut 20 öğrencisi 3. kattan 5. kata taşınır; gerçek ders ataması değildir",
+      "extra_parameters": {},
+      "population_scope": "students_only",
+      "requires_field_validation": true,
+      "operationally_approved": false,
+      "result": null
+    },
+    {
+      "id": "S09",
+      "title": "Yemekhaneye toplu geçiş sırasında deprem",
+      "time_context": "12:00/13:00 çevresinde; gerçek geçiş süresi ölçülecek",
+      "placement": {
+        "mode": "unknown"
+      },
+      "decision_question": "Aynı anda koridor ve merdivenlerde bulunan öğrencilerin başlangıç konumları ne?",
+      "assumption": "Yemek salonuna varmış olmak ile merdivende geçiş halinde olmak ayrı durumlar",
+      "extra_parameters": {},
+      "population_scope": "students_only",
+      "requires_field_validation": true,
+      "operationally_approved": false,
+      "result": null
+    },
+    {
+      "id": "S10",
+      "title": "Ders bitişinde deprem",
+      "time_context": "16:10 çevresi",
+      "placement": {
+        "mode": "unknown"
+      },
+      "decision_question": "Kapı ve bahçede dağılan öğrencilerde çıkış ile yoklama ne kadar ayrışıyor?",
+      "assumption": "Okul içi/dışı dağılım bilinmiyor; 111 öğrencinin hepsi içeride varsayılmadı",
+      "extra_parameters": {},
+      "population_scope": "students_only",
+      "requires_field_validation": true,
+      "operationally_approved": false,
+      "result": null
+    },
+    {
+      "id": "S11",
+      "title": "Tahliye sırasında artçı sarsıntı",
+      "time_context": "S01 başladıktan sonraki varsayımsal olay",
+      "placement": {
+        "mode": "home_floors"
+      },
+      "decision_question": "Onaylı prosedürün getirdiği duraklama ve rota yeniden kontrolü nasıl etkiliyor?",
+      "assumption": "Artçı zamanı, süresi ve davranış prosedürü tahmin edilmedi",
+      "extra_parameters": {
+        "aftershock_offset_seconds": null,
+        "approved_response_procedure": null
+      },
+      "population_scope": "students_only",
+      "requires_field_validation": true,
+      "operationally_approved": false,
+      "result": null
+    }
+  ]
+}

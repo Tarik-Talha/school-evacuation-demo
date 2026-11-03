@@ -1,0 +1,187 @@
+{
+  "review_date": "2026-10-19",
+  "archive_name": "WhatsApp Unknown 2026-10-19 at 15.49.14.zip",
+  "archive_sha256": "c0f54879edd527de3c921900a250e046f3b78f1829be90fbde3fa96c9ccb8f5e",
+  "image_count": 11,
+  "images": [
+    {
+      "id": "P01",
+      "level_id": "SITE",
+      "title": "Bahçe planı",
+      "file": "assets/plans/P01.jpeg",
+      "sha256": "93781d86ea592d87f8b5a88d44556616e847926b7b41b0c72cbeb76887546843",
+      "bytes": 68785,
+      "review_method": "manual visual inspection; no automatic dimension extraction",
+      "observed_date_on_drawing": "2020-08-21",
+      "current_as_built_verified": false,
+      "observations": [
+        "Mevcut bina çevresinde bahçe şeritleri",
+        "Ayrı 410,00 m² bahçe etiketi",
+        "Toplam bahçe alanı 472,12 m² etiketi; sınır/ilişki ve saha konumu doğrulanmadı"
+      ]
+    },
+    {
+      "id": "P02",
+      "level_id": "B2",
+      "title": "2. bodrum",
+      "file": "assets/plans/P02.jpeg",
+      "sha256": "895abac93c905a7363bbe00a2f76149f48159052a337d9d5d165309c8db7e460",
+      "bytes": 84300,
+      "review_method": "manual visual inspection; no automatic dimension extraction",
+      "observed_date_on_drawing": "2020-08-21",
+      "current_as_built_verified": false,
+      "observations": [
+        "Çok amaçlı salon",
+        "Fen bilgisi laboratuvarı etiketi",
+        "İki iç merdiven çizimi"
+      ]
+    },
+    {
+      "id": "P03",
+      "level_id": "B1",
+      "title": "1. bodrum",
+      "file": "assets/plans/P03.jpeg",
+      "sha256": "f12eab3aba4bc3225df1b44380dbb38fd79938ca71ea535568b7fe1163578230",
+      "bytes": 81532,
+      "review_method": "manual visual inspection; no automatic dimension extraction",
+      "observed_date_on_drawing": "2020-08-21",
+      "current_as_built_verified": false,
+      "observations": [
+        "Yemek salonu",
+        "Teknik oda",
+        "İki iç merdiven çizimi"
+      ]
+    },
+    {
+      "id": "P04",
+      "level_id": "G",
+      "title": "Zemin",
+      "file": "assets/plans/P04.jpeg",
+      "sha256": "827d805e00350c19ae8cf6e36f907b9cc5883264f8e8c9374d5665c369abe628",
+      "bytes": 84372,
+      "review_method": "manual visual inspection; no automatic dimension extraction",
+      "observed_date_on_drawing": "2020-08-21",
+      "current_as_built_verified": false,
+      "observations": [
+        "Bina girişi",
+        "Yangın çıkışı etiketi",
+        "Öğretmenler odası",
+        "Asansör çizimleri"
+      ]
+    },
+    {
+      "id": "P05",
+      "level_id": "M",
+      "title": "Zemin asma",
+      "file": "assets/plans/P05.jpeg",
+      "sha256": "8fa7bcbcb9c847d5984826dcf3d730fca1037b1bd5a46fe47a36d10f7fa3298a",
+      "bytes": 85230,
+      "review_method": "manual visual inspection; no automatic dimension extraction",
+      "observed_date_on_drawing": "2020-08-21",
+      "current_as_built_verified": false,
+      "observations": [
+        "Veli bekleme alanı",
+        "Rehberlik odaları",
+        "Yangın merdiveni etiketi"
+      ]
+    },
+    {
+      "id": "P06",
+      "level_id": "1",
+      "title": "1. normal kat",
+      "file": "assets/plans/P06.jpeg",
+      "sha256": "001e217a6640dc92cd2b2cb36757c819854b0172ae742362b8fcc7da00c68837",
+      "bytes": 79773,
+      "review_method": "manual visual inspection; no automatic dimension extraction",
+      "observed_date_on_drawing": "2020-08-21",
+      "current_as_built_verified": false,
+      "observations": [
+        "Ortaokul derslik 1–4",
+        "Teneffüshane",
+        "İki iç merdiven ve yangın merdiveni çizimi"
+      ]
+    },
+    {
+      "id": "P07",
+      "level_id": "2",
+      "title": "2. normal kat",
+      "file": "assets/plans/P07.jpeg",
+      "sha256": "8d9d77e1db171edfc2037728b0a9b88159ec68b699a24ac9b49f69874d7afca1",
+      "bytes": 82232,
+      "review_method": "manual visual inspection; no automatic dimension extraction",
+      "observed_date_on_drawing": "2020-08-21",
+      "current_as_built_verified": false,
+      "observations": [
+        "Ortaokul derslik 5–8",
+        "Teneffüshane",
+        "İki iç merdiven ve yangın merdiveni çizimi"
+      ]
+    },
+    {
+      "id": "P08",
+      "level_id": "3",
+      "title": "3. normal kat",
+      "file": "assets/plans/P08.jpeg",
+      "sha256": "dddcbb5075a00a91c16144097850ad58b6b7ab397497379af424fd77d241e5d1",
+      "bytes": 80914,
+      "review_method": "manual visual inspection; no automatic dimension extraction",
+      "observed_date_on_drawing": "2020-08-21",
+      "current_as_built_verified": false,
+      "observations": [
+        "Lise derslik 1–4",
+        "Teneffüshane",
+        "İki iç merdiven ve yangın merdiveni çizimi"
+      ]
+    },
+    {
+      "id": "P09",
+      "level_id": "4",
+      "title": "4. normal kat",
+      "file": "assets/plans/P09.jpeg",
+      "sha256": "c31e2032fb325c9ac7145bf39f121525f68efe6715acd5c5e4a682b775e96ab5",
+      "bytes": 87064,
+      "review_method": "manual visual inspection; no automatic dimension extraction",
+      "observed_date_on_drawing": "2020-08-21",
+      "current_as_built_verified": false,
+      "observations": [
+        "Lise derslik 5–8",
+        "Teneffüshane",
+        "İki iç merdiven ve yangın merdiveni çizimi"
+      ]
+    },
+    {
+      "id": "P10",
+      "level_id": "5",
+      "title": "5. normal kat",
+      "file": "assets/plans/P10.jpeg",
+      "sha256": "d02c6c4e05aff1d3db6cd8686a80a2f336007312aba1e639a3f89edfdf5e29c8",
+      "bytes": 81252,
+      "review_method": "manual visual inspection; no automatic dimension extraction",
+      "observed_date_on_drawing": "2020-08-21",
+      "current_as_built_verified": false,
+      "observations": [
+        "Fizik-kimya-biyoloji laboratuvarı",
+        "Kütüphane",
+        "Görsel sanatlar/müzik dersliği etiketi"
+      ]
+    },
+    {
+      "id": "P11",
+      "level_id": "6",
+      "title": "6. normal kat",
+      "file": "assets/plans/P11.jpeg",
+      "sha256": "108a742cdea4eb73062ef8c70443d7f8433ac654943e108c35ed3a6ec1b27bf9",
+      "bytes": 86564,
+      "review_method": "manual visual inspection; no automatic dimension extraction",
+      "observed_date_on_drawing": "2020-08-21",
+      "current_as_built_verified": false,
+      "observations": [
+        "Lise derslik 9–12",
+        "Teneffüshane",
+        "İki iç merdiven ve yangın merdiveni çizimi"
+      ]
+    }
+  ],
+  "weekly_lesson_timetable_in_archive": false,
+  "note": "Plan observations are document evidence; they are not structural or current-route approval."
+}

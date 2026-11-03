@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "updated_date": "2026-10-19",
+  "population_scope": "students_only",
+  "school_name_as_printed": "Özel Şerifali Çözüm Akademi Okulları Ortaokulu ve Anadolu Lisesi",
+  "input_status": "verified user totals; plan observations; incomplete spatial geometry",
+  "classes": [
+    {
+      "id": "5A",
+      "students": 2,
+      "home_floor": "2",
+      "plan_room_id": null,
+      "source": "user statement 2026-10-19"
+    },
+    {
+      "id": "6A",
+      "students": 12,
+      "home_floor": "1",
+      "plan_room_id": null,
+      "source": "user statement 2026-10-19"
+    },
+    {
+      "id": "7A",
+      "students": 8,
+      "home_floor": "2",
+      "plan_room_id": null,
+      "source": "user statement 2026-10-19"
+    },
+    {
+      "id": "8A",
+      "students": 10,
+      "home_floor": "1",
+      "plan_room_id": null,
+      "source": "user statement 2026-10-19"
+    },
+    {
+      "id": "9A",
+      "students": 13,
+      "home_floor": "3",
+      "plan_room_id": null,
+      "source": "user statement 2026-10-19"
+    },
+    {
+      "id": "10A",
+      "students": 20,
+      "home_floor": "3",
+      "plan_room_id": null,
+      "source": "user statement 2026-10-19"
+    },
+    {
+      "id": "11A",
+      "students": 11,
+      "home_floor": "3",
+      "plan_room_id": null,
+      "source": "user statement 2026-10-19"
+    },
+    {
+      "id": "11B",
+      "students": 13,
+      "home_floor": "4",
+      "plan_room_id": null,
+      "source": "user statement 2026-10-19"
+    },
+    {
+      "id": "12A",
+      "students": 20,
+      "home_floor": "4",
+      "plan_room_id": null,
+      "source": "user statement 2026-10-19"
+    },
+    {
+      "id": "12B",
+      "students": 2,
+      "home_floor": "4",
+      "plan_room_id": null,
+      "source": "user statement 2026-10-19"
+    }
+  ],
+  "teachers": {
+    "roster_count": 30,
+    "simultaneous_presence": null,
+    "included_in_model": false,
+    "reason": "User explicitly requested ignoring non-students for this stage"
+  },
+  "other_people": {
+    "count": null,
+    "included_in_model": false
+  },
+  "schedule": {
+    "timezone": "Europe/Istanbul",
+    "school_start": "09:00",
+    "school_end": "16:10",
+    "lunch_start": "12:00",
+    "lunch_end": "13:00",
+    "lesson_periods": null,
+    "break_periods": null,
+    "weekly_class_room_schedule": null,
+    "lunch_movement": "all students together; user confirmed",
+    "lunch_floor": "B1",
+    "lunch_floor_basis": "dining hall label in P03; current room use to confirm",
+    "library_visits_enabled": false,
+    "lab_visits": "subject-dependent; exact group/time/room unknown",
+    "sixth_floor_usage": null
+  },
+  "plan_levels": [
+    {
+      "id": "B2",
+      "label": "2. bodrum",
+      "source_id": "P02"
+    },
+    {
+      "id": "B1",
+      "label": "1. bodrum",
+      "source_id": "P03"
+    },
+    {
+      "id": "G",
+      "label": "Zemin",
+      "source_id": "P04"
+    },
+    {
+      "id": "M",
+      "label": "Zemin asma",
+      "source_id": "P05"
+    },
+    {
+      "id": "1",
+      "label": "1. normal kat",
+      "source_id": "P06"
+    },
+    {
+      "id": "2",
+      "label": "2. normal kat",
+      "source_id": "P07"
+    },
+    {
+      "id": "3",
+      "label": "3. normal kat",
+      "source_id": "P08"
+    },
+    {
+      "id": "4",
+      "label": "4. normal kat",
+      "source_id": "P09"
+    },
+    {
+      "id": "5",
+      "label": "5. normal kat",
+      "source_id": "P10"
+    },
+    {
+      "id": "6",
+      "label": "6. normal kat",
+      "source_id": "P11"
+    }
+  ],
+  "stairs": {
+    "internal_drawings": [
+      {
+        "id": "internal_left",
+        "current_usable": null
+      },
+      {
+        "id": "internal_right",
+        "current_usable": null
+      }
+    ],
+    "fire_stair_drawing": {
+      "id": "external_fire",
+      "reported_open": true,
+      "source": "user follow-up 2026-10-19",
+      "continuous_route_to_safe_outside_verified": false
+    },
+    "usable_stair_count": null,
+    "clear_widths_m": null,
+    "connectivity": null,
+    "note": "Do not interpret three drawn stair positions as three verified independent exits.",
+    "elevators_enabled": false
+  },
+  "assembly": {
+    "designated_area_exists": false,
+    "proposed_area": "Bahçedeki saha",
+    "proposal_source": "user follow-up 2026-10-19",
+    "polygon": null,
+    "clear_usable_area_m2": null,
+    "facade_clearances_m": null,
+    "route_from_exits": null,
+    "operationally_approved": false,
+    "note": "Neither printed garden area is automatically the sports field or safe gathering area."
+  },
+  "location": {
+    "user_address": "Şerifali, Kızkalesi Sk. No:19, 34775 Ümraniye/İstanbul",
+    "user_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x14cacf4dbb7d17e3:0xeb7afac1ff3533bd?sa=X&ved=1t:8290&ictx=111",
+    "maps_page_read": false,
+    "provisional_geocode": {
+      "latitude": 40.996961,
+      "longitude": 29.142839,
+      "source_url": "https://yandex.com.tr/maps/115705/umraniye/house/kizkalesi_sok_no_19/ZkAYdwNiQUYOQFpqfXV4d3VlZQ%3D%3D/inside/",
+      "building_entrance_verified": false,
+      "use": "context only; not for route distances or hazard query"
+    },
+    "site_ground_motion": null,
+    "ground_class": null,
+    "structural_performance": null,
+    "nearby_building_heights": null,
+    "street_and_gate_clear_widths_m": null
+  },
+  "analysis_constraints": {
+    "evacuate_during_shaking": false,
+    "route_order": "approved school procedure required; no automatic top-floor-first rule",
+    "structure_failure_prediction_enabled": false,
+    "casualty_prediction_enabled": false,
+    "quantitative_evacuation_ready": false,
+    "operational_use": "planning inputs only; not an approved emergency response plan"
+  }
+}

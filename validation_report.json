@@ -1,0 +1,189 @@
+{
+  "input_validation": "passed",
+  "scenario_count": 11,
+  "student_total": 111,
+  "student_floor_totals": {
+    "2": 10,
+    "1": 22,
+    "3": 44,
+    "4": 35
+  },
+  "teachers_roster": 30,
+  "population_scope": "students_only",
+  "modeled_population": 111,
+  "adults_included": false,
+  "population_conserved_in_all_scenarios": true,
+  "input_package_ready": true,
+  "quantitative_simulation_ready": false,
+  "reason": "Measured geometry, class-to-room mapping and safe route/assembly geometry are unverified",
+  "snapshots": [
+    {
+      "scenario_id": "S01",
+      "students": 111,
+      "students_by_floor": {
+        "2": 10,
+        "1": 22,
+        "3": 44,
+        "4": 35
+      },
+      "population_scope": "students_only",
+      "modeled_population": 111,
+      "adults_included": false,
+      "complete_building_population_known": false,
+      "evacuation_time_seconds": null,
+      "assembly_time_seconds": null
+    },
+    {
+      "scenario_id": "S02",
+      "students": 111,
+      "students_by_floor": {
+        "B1": 111
+      },
+      "population_scope": "students_only",
+      "modeled_population": 111,
+      "adults_included": false,
+      "complete_building_population_known": false,
+      "evacuation_time_seconds": null,
+      "assembly_time_seconds": null
+    },
+    {
+      "scenario_id": "S03",
+      "students": 111,
+      "students_by_floor": {
+        "unallocated": 111
+      },
+      "population_scope": "students_only",
+      "modeled_population": 111,
+      "adults_included": false,
+      "complete_building_population_known": false,
+      "evacuation_time_seconds": null,
+      "assembly_time_seconds": null
+    },
+    {
+      "scenario_id": "S04",
+      "students": 111,
+      "students_by_floor": {
+        "2": 10,
+        "1": 22,
+        "3": 44,
+        "4": 35
+      },
+      "population_scope": "students_only",
+      "modeled_population": 111,
+      "adults_included": false,
+      "complete_building_population_known": false,
+      "evacuation_time_seconds": null,
+      "assembly_time_seconds": null
+    },
+    {
+      "scenario_id": "S05",
+      "students": 111,
+      "students_by_floor": {
+        "2": 10,
+        "1": 22,
+        "3": 44,
+        "4": 35
+      },
+      "population_scope": "students_only",
+      "modeled_population": 111,
+      "adults_included": false,
+      "complete_building_population_known": false,
+      "evacuation_time_seconds": null,
+      "assembly_time_seconds": null
+    },
+    {
+      "scenario_id": "S06",
+      "students": 111,
+      "students_by_floor": {
+        "2": 10,
+        "1": 22,
+        "3": 44,
+        "4": 35
+      },
+      "population_scope": "students_only",
+      "modeled_population": 111,
+      "adults_included": false,
+      "complete_building_population_known": false,
+      "evacuation_time_seconds": null,
+      "assembly_time_seconds": null
+    },
+    {
+      "scenario_id": "S07",
+      "students": 111,
+      "students_by_floor": {
+        "2": 10,
+        "1": 22,
+        "3": 44,
+        "4": 35
+      },
+      "population_scope": "students_only",
+      "modeled_population": 111,
+      "adults_included": false,
+      "complete_building_population_known": false,
+      "evacuation_time_seconds": null,
+      "assembly_time_seconds": null
+    },
+    {
+      "scenario_id": "S08",
+      "students": 111,
+      "students_by_floor": {
+        "2": 10,
+        "1": 22,
+        "3": 24,
+        "5": 20,
+        "4": 35
+      },
+      "population_scope": "students_only",
+      "modeled_population": 111,
+      "adults_included": false,
+      "complete_building_population_known": false,
+      "evacuation_time_seconds": null,
+      "assembly_time_seconds": null
+    },
+    {
+      "scenario_id": "S09",
+      "students": 111,
+      "students_by_floor": {
+        "unallocated": 111
+      },
+      "population_scope": "students_only",
+      "modeled_population": 111,
+      "adults_included": false,
+      "complete_building_population_known": false,
+      "evacuation_time_seconds": null,
+      "assembly_time_seconds": null
+    },
+    {
+      "scenario_id": "S10",
+      "students": 111,
+      "students_by_floor": {
+        "unallocated": 111
+      },
+      "population_scope": "students_only",
+      "modeled_population": 111,
+      "adults_included": false,
+      "complete_building_population_known": false,
+      "evacuation_time_seconds": null,
+      "assembly_time_seconds": null
+    },
+    {
+      "scenario_id": "S11",
+      "students": 111,
+      "students_by_floor": {
+        "2": 10,
+        "1": 22,
+        "3": 44,
+        "4": 35
+      },
+      "population_scope": "students_only",
+      "modeled_population": 111,
+      "adults_included": false,
+      "complete_building_population_known": false,
+      "evacuation_time_seconds": null,
+      "assembly_time_seconds": null
+    }
+  ],
+  "evacuation_time_seconds": null,
+  "structural_damage_estimate": null,
+  "casualty_estimate": null
+}
